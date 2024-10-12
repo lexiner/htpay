@@ -1,0 +1,22 @@
+{
+  "name": "lexiner/htpay",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin htpay,a simple class to solve the payment problem.now support alipay,wechatpay",
+  "require": {
+    "php": ">=5.6.0",
+    "ext-gd": "*",
+    "ext-mbstring": "*"
+  },
+  "authors": [
+        {
+            "name": "lexiner",
+            "email": "xdok200@foxmail.com"
+        }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lexiner\\Htpay\\": "src"
+    }
+  }
+}
